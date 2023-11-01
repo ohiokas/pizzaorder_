@@ -49,7 +49,24 @@ elif size == "large":
 else:
     print("Sorry, Your fav Size was sold out")
 
+#get proce if user need extra cheese
+keju = input("Do you need extra cheese? (y/n)")
+if keju == "y":
+    total_hrga += 13000
+elif keju == "n":
+        total_hrga += 0
+else:
+    print("Sorry, You dont choose anything")
 
+#get payment for user
+print("Your Bill : Rp.", total_hrga)
+print ("Choose your payment : ")
+payment = input()
+if payment == "cash" or payment == "credit card" or payment == "debit card":
+    if payment == "cash":
+        total_hrga += 0
+elif payment == "credit card":
+    total_hrga +=2500
 
 #showing Reception for user
 print("YOURS RECEPTION")
