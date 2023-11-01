@@ -48,3 +48,17 @@ elif size == "large":
         total_hrga += 40000
 else:
     print("Sorry, Your fav Size was sold out")
+
+
+
+#showing Reception for user
+print("YOURS RECEPTION")
+print("Hallo Mr/s ", name)
+print("With number table ", table)
+print("Order Pizza with this detail :")
+print("Your topping : ", topping
+    , "Your Crust : ", crustPizza
+    , "Your Size : ", size
+    , "Extra Cheese : ", keju)
+print("Payment : ", payment)
+print("Bill : Rp. ",total_hrga)
